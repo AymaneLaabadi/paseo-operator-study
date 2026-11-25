@@ -1,0 +1,59 @@
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+image 1/26 done
+image 2/26 done
+image 3/26 done
+image 4/26 done
+image 5/26 done
+image 6/26 done
+image 7/26 done
+image 8/26 done
+image 9/26 done
+image 10/26 done
+image 11/26 done
+image 12/26 done
+image 13/26 done
+image 14/26 done
+image 15/26 done
+image 16/26 done
+image 17/26 done
+image 18/26 done
+image 19/26 done
+image 20/26 done
+image 21/26 done
+image 22/26 done
+image 23/26 done
+image 24/26 done
+image 25/26 done
+image 26/26 done
+
+exp sigma  given   bias  floor  MC err  check          cos   cos1    mag FDstab
+A    0.02  0.020  0.127  0.194    1.6%  1.000  0.683±0.011  0.553  0.297  0.999
+A    0.04  0.040  0.110  0.295    2.5%  1.000  0.699±0.011  0.567  0.282  0.999
+A    0.08  0.080  0.088  0.408    3.7%  1.000  0.708±0.011  0.528  0.268  1.000
+A    0.16  0.160  0.165  0.524    1.8%  1.000  0.689±0.007  0.504  0.100  1.000
+A    0.32  0.320  0.308  0.638    1.0%  1.000  0.674±0.004  0.503  0.576  1.000
+B    0.02  0.010  0.130  0.194    1.5%  1.000  0.681±0.010  0.551  0.263  0.999
+B    0.02  0.040  0.141  0.194    1.2%  1.000  0.680±0.011  0.551  0.370  0.999
+B    0.04  0.020  0.121  0.295    2.4%  1.000  0.691±0.011  0.561  0.198  0.999
+B    0.04  0.080  0.147  0.295    1.2%  1.000  0.693±0.011  0.562  0.398  0.999
+B    0.08  0.040  0.113  0.408    2.6%  1.000  0.698±0.011  0.521  0.126  1.000
+B    0.08  0.160  0.096  0.408    3.3%  1.000  0.704±0.011  0.525  0.179  1.000
+B    0.16  0.080  0.117  0.524    2.9%  1.000  0.701±0.007  0.512  0.071  1.000
+B    0.16  0.320  0.187  0.524    1.5%  1.000  0.682±0.007  0.498  0.139  1.000
+B    0.32  0.160  0.286  0.638    1.1%  1.000  0.684±0.004  0.510  0.502  1.000
+B    0.32  0.640  0.328  0.638    0.9%  1.000  0.664±0.004  0.496  0.643  1.000
+C    0.02  0.020  0.127  0.192    1.6%  1.000            -      -      -      -
+C    0.04  0.040  0.111  0.293    3.7%  1.000            -      -      -      -
+C    0.08  0.080  0.090  0.406    5.6%  1.000            -      -      -      -
+C    0.16  0.160  0.157  0.522    2.2%  1.000            -      -      -      -
+C    0.32  0.320  0.297  0.638    1.9%  1.000            -      -      -      -

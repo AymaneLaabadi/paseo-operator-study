@@ -1,0 +1,38 @@
+[project]
+name = "paseo-implementation"
+version = "0.1.0"
+description = "PASEO's measurement correction from scratch, and a stress test of its learned latent operator"
+readme = "README.md"
+authors = [
+    { name = "AymaneLaabadi", email = "aymanelaabadi01@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=5.2.0",
+    "diffusers>=0.43.0",
+    "einops>=0.8.2",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+]
+
+[project.scripts]
+paseo-implementation = "paseo_implementation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+# CUDA build of torch (the default PyPI wheel on Windows is CPU-only).
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }

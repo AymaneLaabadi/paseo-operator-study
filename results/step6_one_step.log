@@ -1,0 +1,80 @@
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+image 1/26 done
+image 2/26 done
+image 3/26 done
+image 4/26 done
+image 5/26 done
+image 6/26 done
+image 7/26 done
+image 8/26 done
+image 9/26 done
+image 10/26 done
+image 11/26 done
+image 12/26 done
+image 13/26 done
+image 14/26 done
+image 15/26 done
+image 16/26 done
+image 17/26 done
+image 18/26 done
+image 19/26 done
+image 20/26 done
+image 21/26 done
+image 22/26 done
+image 23/26 done
+image 24/26 done
+image 25/26 done
+image 26/26 done
+
+Gain over the prior-only update, mean ± s.e. over 26 images (positive = measurement helped)
+ eta beta sigma         r    PSNR gain dB  helped  latent err red.
+ 0.1  1.0  0.02     fixed   -0.02 ± 0.06     54%    -0.007
+ 0.1  1.0  0.02  measured   +0.21 ± 0.01    100%    +0.002
+ 0.1  1.0  0.04     fixed   -0.64 ± 0.09      0%    -0.024
+ 0.1  1.0  0.04  measured   +0.12 ± 0.00    100%    +0.001
+ 0.1  1.0  0.08     fixed   -1.33 ± 0.12      0%    -0.043
+ 0.1  1.0  0.08  measured   +0.05 ± 0.00    100%    +0.001
+ 0.1  1.0  0.16     fixed   -2.54 ± 0.14      0%    -0.078
+ 0.1  1.0  0.16  measured   +0.06 ± 0.00    100%    +0.000
+ 0.1  1.0  0.32     fixed   -4.31 ± 0.16      0%    -0.121
+ 0.1  1.0  0.32  measured   +0.05 ± 0.00    100%    +0.000
+ 0.3  0.5  0.02     fixed   +4.19 ± 0.09    100%    +0.056
+ 0.3  0.5  0.02  measured   +3.06 ± 0.06    100%    +0.044
+ 0.3  0.5  0.04     fixed   +3.74 ± 0.07    100%    +0.038
+ 0.3  0.5  0.04  measured   +2.28 ± 0.04    100%    +0.032
+ 0.3  0.5  0.08     fixed   +1.47 ± 0.12    100%    -0.025
+ 0.3  0.5  0.08  measured   +1.44 ± 0.03    100%    +0.020
+ 0.3  0.5  0.16     fixed   +0.57 ± 0.11     85%    -0.073
+ 0.3  0.5  0.16  measured   +1.16 ± 0.03    100%    +0.014
+ 0.3  0.5  0.32     fixed   -1.37 ± 0.13      4%    -0.148
+ 0.3  0.5  0.32  measured   +0.78 ± 0.03    100%    +0.007
+ 0.3  1.0  0.02     fixed   +2.45 ± 0.05    100%    +0.029
+ 0.3  1.0  0.02  measured   +2.02 ± 0.04    100%    +0.026
+ 0.3  1.0  0.04     fixed   +1.76 ± 0.07    100%    +0.009
+ 0.3  1.0  0.04  measured   +1.53 ± 0.03    100%    +0.019
+ 0.3  1.0  0.08     fixed   -0.33 ± 0.12     23%    -0.048
+ 0.3  1.0  0.08  measured   +0.94 ± 0.02    100%    +0.011
+ 0.3  1.0  0.16     fixed   -1.17 ± 0.12      4%    -0.090
+ 0.3  1.0  0.16  measured   +0.82 ± 0.02    100%    +0.008
+ 0.3  1.0  0.32     fixed   -2.89 ± 0.15      0%    -0.155
+ 0.3  1.0  0.32  measured   +0.57 ± 0.02    100%    +0.004
+ 0.5  1.0  0.02     fixed   +3.21 ± 0.06    100%    +0.059
+ 0.5  1.0  0.02  measured   +2.90 ± 0.05    100%    +0.055
+ 0.5  1.0  0.04     fixed   +3.15 ± 0.05    100%    +0.053
+ 0.5  1.0  0.04  measured   +2.58 ± 0.04    100%    +0.047
+ 0.5  1.0  0.08     fixed   +2.54 ± 0.06    100%    +0.029
+ 0.5  1.0  0.08  measured   +1.98 ± 0.03    100%    +0.036
+ 0.5  1.0  0.16     fixed   +1.84 ± 0.08    100%    -0.016
+ 0.5  1.0  0.16  measured   +1.47 ± 0.03    100%    +0.020
+ 0.5  1.0  0.32     fixed   +0.53 ± 0.11     81%    -0.082
+ 0.5  1.0  0.32  measured   +0.96 ± 0.04    100%    +0.006
